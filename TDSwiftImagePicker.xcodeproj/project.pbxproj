@@ -12,6 +12,7 @@
 		556C82F122E73708006769D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556C82EF22E73708006769D7 /* Main.storyboard */; };
 		556C82F322E73709006769D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556C82F222E73709006769D7 /* Assets.xcassets */; };
 		556C82F622E73709006769D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556C82F422E73709006769D7 /* LaunchScreen.storyboard */; };
+		556C82FF22E73D30006769D7 /* TDSwiftImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556C82FE22E73D30006769D7 /* TDSwiftImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		556C82F222E73709006769D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556C82F522E73709006769D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556C82F722E73709006769D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556C82FE22E73D30006769D7 /* TDSwiftImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSwiftImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		556C82EA22E73708006769D7 /* TDSwiftImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				556C82FD22E73D29006769D7 /* TDSwiftImagePicker */,
 				556C82EB22E73708006769D7 /* AppDelegate.swift */,
 				556C82ED22E73708006769D7 /* ViewController.swift */,
 				556C82EF22E73708006769D7 /* Main.storyboard */,
 				556C82F222E73709006769D7 /* Assets.xcassets */,
 				556C82F422E73709006769D7 /* LaunchScreen.storyboard */,
 				556C82F722E73709006769D7 /* Info.plist */,
+			);
+			path = TDSwiftImagePicker;
+			sourceTree = "<group>";
+		};
+		556C82FD22E73D29006769D7 /* TDSwiftImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				556C82FE22E73D30006769D7 /* TDSwiftImagePicker.swift */,
 			);
 			path = TDSwiftImagePicker;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				556C82EE22E73708006769D7 /* ViewController.swift in Sources */,
+				556C82FF22E73D30006769D7 /* TDSwiftImagePicker.swift in Sources */,
 				556C82EC22E73708006769D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E727FEDX2F;
 				INFOPLIST_FILE = TDSwiftImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E727FEDX2F;
 				INFOPLIST_FILE = TDSwiftImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
